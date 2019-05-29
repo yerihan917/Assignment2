@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles">
+      <UniqueIdentifier>{5ec65e9b-a192-4c1b-8566-ec0ca9cdaaa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00_Common">
+      <UniqueIdentifier>{336a8e5b-26f5-4e2a-b642-598d40faf6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_Interface">
+      <UniqueIdentifier>{e566c008-e57d-4e2f-8507-10425e532daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_Person">
+      <UniqueIdentifier>{ee72885a-f05e-46fb-b17b-fb2e67f646d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_DeusExMachina">
+      <UniqueIdentifier>{ccccb11e-6bc4-416e-8b6b-a1557d724277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_Vehicle">
+      <UniqueIdentifier>{fe959848-dad1-41e3-910b-e04176c93d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\A_Airplane">
+      <UniqueIdentifier>{f6dd8488-4115-4568-a450-ec1656272d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\B_Boat">
+      <UniqueIdentifier>{1e6f4b7f-38af-48d7-a999-a8efaaa11e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\C_Boatplane">
+      <UniqueIdentifier>{c599eaa4-1bc7-4c07-b0e0-b5213a98acb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\D_Motorcycle">
+      <UniqueIdentifier>{70db9098-f174-4624-a738-269440e891f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\E_Sedan">
+      <UniqueIdentifier>{624694bd-b05f-4beb-824a-80e12be1b34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\F_UBoat">
+      <UniqueIdentifier>{3984f7ff-c2e8-49d2-a4e5-44bebf87470d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_Vehicles\T_Trailer">
+      <UniqueIdentifier>{8240d5f8-7fbc-4e0e-8952-6de3c6d2c348}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDivable.h">
+      <Filter>소스 파일\01_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrivable.h">
+      <Filter>소스 파일\01_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyable.h">
+      <Filter>소스 파일\01_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ISailable.h">
+      <Filter>소스 파일\01_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>소스 파일\02_Person</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>소스 파일\04_Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="DeusExMachina.h">
+      <Filter>소스 파일\03_DeusExMachina</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>소스 파일\00_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Trailer.h">
+      <Filter>소스 파일\05_Vehicles\T_Trailer</Filter>
+    </ClInclude>
+    <ClInclude Include="Airplane.h">
+      <Filter>소스 파일\05_Vehicles\A_Airplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Boat.h">
+      <Filter>소스 파일\05_Vehicles\B_Boat</Filter>
+    </ClInclude>
+    <ClInclude Include="Boatplane.h">
+      <Filter>소스 파일\05_Vehicles\C_Boatplane</Filter>
+    </ClInclude>
+    <ClInclude Include="Motorcycle.h">
+      <Filter>소스 파일\05_Vehicles\D_Motorcycle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sedan.h">
+      <Filter>소스 파일\05_Vehicles\E_Sedan</Filter>
+    </ClInclude>
+    <ClInclude Include="UBoat.h">
+      <Filter>소스 파일\05_Vehicles\F_UBoat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Person.cpp">
+      <Filter>소스 파일\02_Person</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>소스 파일\04_Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="DeusExMachina.cpp">
+      <Filter>소스 파일\03_DeusExMachina</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Trailer.cpp">
+      <Filter>소스 파일\05_Vehicles\T_Trailer</Filter>
+    </ClCompile>
+    <ClCompile Include="Airplane.cpp">
+      <Filter>소스 파일\05_Vehicles\A_Airplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Boat.cpp">
+      <Filter>소스 파일\05_Vehicles\B_Boat</Filter>
+    </ClCompile>
+    <ClCompile Include="Boatplane.cpp">
+      <Filter>소스 파일\05_Vehicles\C_Boatplane</Filter>
+    </ClCompile>
+    <ClCompile Include="Motorcycle.cpp">
+      <Filter>소스 파일\05_Vehicles\D_Motorcycle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sedan.cpp">
+      <Filter>소스 파일\05_Vehicles\E_Sedan</Filter>
+    </ClCompile>
+    <ClCompile Include="UBoat.cpp">
+      <Filter>소스 파일\05_Vehicles\F_UBoat</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
